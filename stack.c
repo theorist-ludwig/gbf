@@ -72,8 +72,7 @@ int balance(struct codebal *b, char *bftext)
                 if(*(bftext + i) == OPEN_BRACE) {
                         if(stack_push(b, *(bftext + i)) == STACK_OVERFLOW)
 				return STACK_OVERFLOW;
-                }
-                else if(*(bftext + i) == CLOSE_BRACE) {
+                } else if(*(bftext + i) == CLOSE_BRACE) {
                         if(stack_pop(b) == STACK_UNDERFLOW)
 				return STACK_UNDERFLOW;
                 }
