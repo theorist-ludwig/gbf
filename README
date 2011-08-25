@@ -1,0 +1,24 @@
+OVERVIEW
+========
+
+This is a BrainFuck intrpreter. It is very simple, but more features are
+expected. This uses a doubly linked list as tape, and the data in the cells are
+the size of char in your system (typically 8 bits on x86 platforms).
+
+Along with gbrainfuck.c I put some example BrainFuck code. My pet one is
+mandelbrot.bf, by Erik Bosman, a mandelbrot fractal viewer. There is also a
+BrainFuck interpreter in BrainFuck, an ASCII table generator and other things.
+Enjoy!
+
+
+
+USAGE
+=====
+
+./gbf -f <file>
+./gbf 
+
+If <file> was specified on the command line, the interpreter will treat it as a
+BrainFuck source file; otherwise, it will read from stdin until a EOF
+(control-d on most Unix systems) is found. Any character that is not a
+BrainFuck keyword is considered to be comment, and is ignored.

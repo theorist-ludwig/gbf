@@ -1,0 +1,12 @@
+6,13c6,7
+< gbf: gbrainfuck.o stack.o
+< 	$(CC) $(CFLAGS) stack.o gbrainfuck.o -o gbf
+< 
+< stack.o: stack.c stack.h
+< 	$(CC) $(CFLAGS) -c stack.c
+< 
+< gbrainfuck.o: gbrainfuck.c stack.h
+< 	$(CC) $(CFLAGS) -c gbrainfuck.c
+---
+> gbf: gbrainfuck.c
+> 	$(CC) $(CFLAGS) -o gbf gbrainfuck.c
