@@ -252,8 +252,6 @@ inicio:
 		bfsize++;
 	}
 
-	printf("Number of brackets used: %d", brackets);
-
 	/* having read the whole input, we check whether the 
 	 * brackets match; if not, we bail out. (stack.c)
 	 */
