@@ -5,7 +5,7 @@
  * program (other interpreters usually use an array of pre-defined size as
  * tape). Also, there is no left limit (except, of course, the one imposed by
  * the underlying system memory). Have fun!
- * (C) 2003, 2004 José de Paula <jose_de_paula@ig.com.br> Original author
+ * (C) 2003, 2004 José de Paula <jose_de_paula@ig.com.br>
  * (C) 2011 Raman Gopalan <ramangopalan@gmail.com>
  */
 
